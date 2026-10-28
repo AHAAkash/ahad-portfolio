@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import Intro from "./components/Intro";
 import Cursor from "./components/Cursor";
@@ -66,6 +67,7 @@ export default function App() {
       </main>
 
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
